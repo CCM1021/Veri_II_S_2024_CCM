@@ -1,4 +1,4 @@
-typedef enum {lectura, escritura, reset} tipo_trans;
+typedef enum {lectura, escritura, reset, lectura_escritura} tipo_trans; //se agregó la nueva instrucción
 
 
 class trans_fifo #(parameter width = 16);
@@ -42,7 +42,7 @@ interface fifo_if #(parameter width = 16) (
     logic [width-1:0] dato_in;
     logic [width-1:0] dato_out;
 
-    endinterface
+endinterface
 
 class trans_sb #(parameter width = 16);
     bit [width-1:0] dato_enviado;

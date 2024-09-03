@@ -38,21 +38,32 @@ class driver #(parameter width = 16);
                     @(posedge vif.clk);
                     vif.pop = 1;
                     drv_chkr_mbx.put(transaction);
-                    transaction.print("Driver: Transaacion ejecutada");
+                    transaction.print("Driver: Transaccion ejecutada, Lectura");
                 end
 
                 escritura: begin
                     vif.push = 1;
                     transaction.tiempo = $time;
                     drv_chkr_mbx.put(transaction);
-                    transaction.print("Driver: Transaccion ejecutada");
+                    transaction.print("Driver: Transaccion ejecutada, Escritura");
                 end
 
                 reset: begin
                     vif.rst = 1;
                     transaction.tiempo = $time;
                     drv_chkr_mbx.put(transaction);
-                    transaction.print("Driver: Transaccion ejecutada");
+                    transaction.print("Driver: Transaccion ejecutada, reset");
+                end
+                //Se agrega en el checker la nueva instrucción
+                lectura_escritura: begin
+                    transaction.dato = vif.dato_out;
+                    @(posedge vif.clk);
+                    vif.push = 1;
+                    transaction.tiempo = $time;
+                    
+                    vif.pop = 1;
+                    drv_chkr_mbx.put(transaction);
+                    transaction.print("Driver: Transaccion ejecutada, lectura_escritura");               
                 end
                 
                 default: begin
