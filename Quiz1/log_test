@@ -6,7 +6,11 @@ Warning-[DEBUG_DEP] Option will be deprecated
 Command: vcs -Mupdate test_bench.sv -o salida -full64 -debug_all -sverilog -l log_test \
 +lint=TFIPC-L
                          Chronologic VCS (TM)
+<<<<<<< HEAD
        Version R-2020.12-SP2_Full64 -- Tue Sep  3 00:49:09 2024
+=======
+       Version R-2020.12-SP2_Full64 -- Tue Sep  3 00:23:30 2024
+>>>>>>> main
 
                     Copyright (c) 1991 - 2021 Synopsys, Inc.
    This software and the associated documentation are proprietary to Synopsys,
@@ -19,6 +23,7 @@ Warning-[DEBUG_DEP] Option will be deprecated
   The option '-debug_all' will be deprecated in a future release.  Please use 
   '-debug_acc+all -debug_region+cell+encrypt' instead.
 
+<<<<<<< HEAD
 Parsing design file 'test_bench.sv'
 Parsing included file 'fifo.sv'.
 Back to file 'test_bench.sv'.
@@ -63,3 +68,9 @@ SIM_l.o      rmapats_mop.o rmapats.o rmar.o rmar_nd.o  rmar_llvm_0_1.o rmar_llvm
 -ldl  -lc -lm -lpthread -ldl 
 ../salida up to date
 CPU time: .808 seconds to compile + .513 seconds to elab + .414 seconds to link
+=======
+The design hasn't changed and need not be recompiled. 
+If you really want to, delete file /mnt/vol_NFS_rh003/Est_Verif_II2024/CERDAS_MORA/Veri_II_S_2024_CCM/Quiz1/salida.daidir/.vcs.timestamp and
+run VCS again.
+
+>>>>>>> main
