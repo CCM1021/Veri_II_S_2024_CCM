@@ -60,7 +60,7 @@ class driver #(parameter width = 16);
                     @(posedge vif.clk);
                     vif.push = 1;
                     transaction.tiempo = $time;
-                    
+                    drv_chkr_mbx.put(transaction);
                     vif.pop = 1;
                     drv_chkr_mbx.put(transaction);
                     transaction.print("Driver: Transaccion ejecutada, lectura_escritura");               
