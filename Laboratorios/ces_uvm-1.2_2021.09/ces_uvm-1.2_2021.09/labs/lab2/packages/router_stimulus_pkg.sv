@@ -2,7 +2,7 @@ package router_stimulus_pkg;
 
 import uvm_pkg::*;
 
-`include "packet.sv"
+`include "labs\lab2\packet.sv"
 
 // Lab 2: Task 8, Step 2 - include the packet_sequence.sv file
 //
