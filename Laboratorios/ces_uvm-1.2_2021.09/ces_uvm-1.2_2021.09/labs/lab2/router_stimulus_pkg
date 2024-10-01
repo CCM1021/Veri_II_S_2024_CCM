@@ -1,0 +1,4 @@
+package router_stimulus_pkg;
+    import uvm_pkg::*;
+    `include "labs\lab2\packet.sv"
+endpackage
