@@ -8,7 +8,12 @@ module router_test_top;
   router    dut(.clk(SystemClock), .reset_n(reset_if.reset_n), .io(router_if), .host(host_if));
 
   initial begin
-    $fsdbDumpvars;
+    //$fsdbDumpvars;
     forever #(simulation_cycle/2) SystemClock = ~SystemClock ;
+  end
+
+  initial begin
+    #100;
+    $finish;
   end
 endmodule  
