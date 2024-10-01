@@ -1,0 +1,26 @@
+!SESSION 2022-06-08 17:41:27.368 -----------------------------------------------
+eclipse.buildId=2022.6.0
+java.version=17.0.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -auto_project_and_workspace -project_location /remote/vgscratch7/mandel/euclide_uvm_labs/ces_uvm-1.2_2018.09/labs/lab4/euclide_project -external_args_db_file /remote/vgscratch7/mandel/euclide_uvm_labs/ces_uvm-1.2_2018.09/labs/lab4/EUELAB.DB/euclide_external_args.db -build_args_file /remote/vgscratch7/mandel/euclide_uvm_labs/ces_uvm-1.2_2018.09/labs/lab4/EUELAB.DB/euclide_build_args.db -prefs_copy_workspace ../workspace
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -auto_project_and_workspace -data /remote/vgscratch7/mandel/euclide_uvm_labs/ces_uvm-1.2_2018.09/labs/lab4/euclide_workspace -project_location /remote/vgscratch7/mandel/euclide_uvm_labs/ces_uvm-1.2_2018.09/labs/lab4/euclide_project -external_args_db_file /remote/vgscratch7/mandel/euclide_uvm_labs/ces_uvm-1.2_2018.09/labs/lab4/EUELAB.DB/euclide_external_args.db -build_args_file /remote/vgscratch7/mandel/euclide_uvm_labs/ces_uvm-1.2_2018.09/labs/lab4/EUELAB.DB/euclide_build_args.db -prefs_copy_workspace ../workspace
+
+!ENTRY euclide 1 100003 2022-06-08 17:41:37.640
+!MESSAGE Installation and system info:
+Euclide plug-in version: 2022.6.0
+GTK version: 3.22.30
+GTK theme specified in 'GTK_THEME' environment variable: Oxygen
+GTK theme name as given by the OS: Raleigh
+
+!ENTRY euclide 1 100003 2022-06-08 17:41:42.252
+!MESSAGE Euclide is listening for incoming TCP connections on port 34367
+
+!ENTRY euclide 1 100003 2022-06-08 17:41:47.805
+!MESSAGE Successfully checked out a license for the feature 'EUCLIDE-GUI' from the license server at 26585@us01genlic
+
+!ENTRY euclide 1 100003 2022-06-08 17:41:48.623
+!MESSAGE Successfully checked out a license for the feature 'EUCLIDE-INTR-LINT' from the license server at 26585@us01genlic
+
+!ENTRY euclide 1 100003 2022-06-08 18:22:25.257
+!MESSAGE Deleted the socket information file ".euclidesocket" from workspace location
