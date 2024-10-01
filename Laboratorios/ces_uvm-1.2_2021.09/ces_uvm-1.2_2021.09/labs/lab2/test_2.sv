@@ -1,5 +1,6 @@
-program automatic test;
+program automatic test_2;
 import uvm_pkg::*;
+`include "uvm_macros.svh"
 
 // Lab 2: Task 4, Step 2
 //
