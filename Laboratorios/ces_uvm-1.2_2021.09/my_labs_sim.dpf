@@ -9,6 +9,12 @@ simulations:
     options: >-
       -top work.router_test_top -L work +acc+b -waves router_waves.mxd
       -timescale 1ns/1ps
+  - name: lab1_sim
+    options: >-
+      -top work.test -uvm 1.2 -L work +acc+b -waves lab1_test.mxd -dump-agg
+      -sv_seed random -timescale 1ns/1ps +UVM_TIMEOUT=10000
+      +UVM_VERBOSITY=UVM_MEDIUM +UVM_NO_DEPRECATED
+      +UVM_OBJECT_MUST_HAVE_CONSTRUCTOR
 source_files:
   - language: verilog
     path: dsim_filelist\rtl_filelist

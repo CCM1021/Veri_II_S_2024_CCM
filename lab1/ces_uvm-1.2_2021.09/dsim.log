@@ -1,0 +1,35 @@
+=N:[UVMSource] Using sources from 'C:\Users\Carlos Cerdas Mora\AppData\Local\metrics-ca\dsim\20240923.0.0\uvm\1.2'
+=N:[UsageMeter (2024-10-14 23:58:12 Hora estándar, América Central)] usage server initial connection
+=N:[License] 
+Licensed for Metrics Design Automation.
+=N:[License] New lease granted.
+Analyzing...
+Elaborating...
+  Top-level modules:
+    $unit
+    test
+=W:[IneffectiveDynamicCast]:
+    The following dynamic $cast cases will always be false    
+
+    C:\Users\Carlos Cerdas Mora\AppData\Local\metrics-ca\dsim\20240923.0.0\uvm\1.2\src\base\uvm_callback.svh:521:9              class uvm_pkg::uvm_callbacks#(class uvm_pkg::uvm_phase,class uvm_pkg::uvm_phase_cb)    class uvm_pkg::uvm_callbacks#(class uvm_pkg::uvm_phase,class uvm_pkg::uvm_callback)    
+    Included from C:\Users\Carlos Cerdas Mora\AppData\Local\metrics-ca\dsim\20240923.0.0\uvm\1.2\src\base\uvm_base.svh:76:12                                                                                                                                                                                  
+    Included from C:\Users\Carlos Cerdas Mora\AppData\Local\metrics-ca\dsim\20240923.0.0\uvm\1.2\src\uvm_pkg.sv:31:12                                                                                                                                                                                         
+
+    C:\Users\Carlos Cerdas Mora\AppData\Local\metrics-ca\dsim\20240923.0.0\uvm\1.2\src\base\uvm_callback.svh:671:12             class uvm_pkg::uvm_phase                                                               class uvm_pkg::uvm_report_object                                                       
+    Included from C:\Users\Carlos Cerdas Mora\AppData\Local\metrics-ca\dsim\20240923.0.0\uvm\1.2\src\base\uvm_base.svh:76:12                                                                                                                                                                                  
+
+    C:\Users\Carlos Cerdas Mora\AppData\Local\metrics-ca\dsim\20240923.0.0\uvm\1.2\src\base\uvm_callback.svh:731:10             class uvm_pkg::uvm_component                                                           class uvm_pkg::uvm_phase                                                               
+    Included from C:\Users\Carlos Cerdas Mora\AppData\Local\metrics-ca\dsim\20240923.0.0\uvm\1.2\src\base\uvm_base.svh:76:12                                                                                                                                                                                  
+
+    C:\Users\Carlos Cerdas Mora\AppData\Local\metrics-ca\dsim\20240923.0.0\uvm\1.2\src\base\uvm_callback.svh:808:10             class uvm_pkg::uvm_component                                                           class uvm_pkg::uvm_phase                                                               
+    Included from C:\Users\Carlos Cerdas Mora\AppData\Local\metrics-ca\dsim\20240923.0.0\uvm\1.2\src\base\uvm_base.svh:76:12                                                                                                                                                                                  
+
+  Found 4 unique specialization(s) of 4 design element(s).
+Optimizing...
+Building models...
+PLI/VPI access: +b 
+Simulation time precision is 1ps.
+Linking image.so...
+=N:[RootSeed] Using random seed 7215472fdfccbf72b225b166b4500e2ea3ff4ffdde99b5641edb10b51d71419a.
+=F:Unable to open shared library: dsim_work/image.so
+    "dsim_work\image.so": No se puede encontrar el módulo especificado.

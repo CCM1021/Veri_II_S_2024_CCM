@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="veride.launch_configurations.simulatorBuildLaunchConfigurationType">
+    <stringAttribute key="veride.launch_configurations.simulatorBuildLaunchConfigurationTypeTab.simulatorBuildCommandCheckedStatesAttribute" value="true;true;"/>
+    <listAttribute key="veride.launch_configurations.simulatorBuildLaunchConfigurationTypeTab.simulatorBuildCommandRunDirsAttribute">
+        <listEntry value="/remote/vgscratch7/mandel/euclide_uvm_labs/ces_uvm-1.2_2018.09/labs/lab4"/>
+        <listEntry value="/remote/vgscratch7/mandel/euclide_uvm_labs/ces_uvm-1.2_2018.09/labs/lab4"/>
+    </listAttribute>
+    <listAttribute key="veride.launch_configurations.simulatorBuildLaunchConfigurationTypeTab.simulatorBuildCommandsAttribute">
+        <listEntry value="vcs -sverilog -lca -debug_access+all+reverse -kdb +vcs+vcdpluson -timescale=1ns/100ps -l comp.log -ntb_opts uvm-1.2 ../../rtl/router.sv ../../rtl/router_io.sv ../../rtl/ral/host_io.sv ../../rtl/reset_io.sv ../../rtl/router_test_top.sv ./packages/router_stimulus_pkg.sv ./packages/router_env_pkg.sv ./packages/router_test_pkg.sv ./test.sv +define+UVM_VERDI_COMPWAVE+UVM_NO_DEPRECATED+UVM_OBJECT_MUST_HAVE_CONSTRUCTOR+"/>
+        <listEntry value="simv"/>
+    </listAttribute>
+    <stringAttribute key="veride.launch_configurations.simulatorBuildLaunchConfigurationTypeTab.simulatorBuildDefaultWorkingDirectoryAttribute" value="/remote/vgscratch7/mandel/euclide_uvm_labs/ces_uvm-1.2_2018.09/labs/lab4"/>
+    <booleanAttribute key="veride.launch_configurations.simulatorBuildLaunchConfigurationTypeTab.simulatorBuildIsAutomaticAttribute" value="true"/>
+</launchConfiguration>
