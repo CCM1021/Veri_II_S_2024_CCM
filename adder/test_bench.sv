@@ -23,7 +23,7 @@ module tb;
   adder u0 (.clk(clk),
                .rstn(_if.rstn),
                .in1(_if.in1),
-               .in2(_if.in2)
+               .in2(_if.in2),
                .out(_if.out));
   initial begin
     clk <= 0;
