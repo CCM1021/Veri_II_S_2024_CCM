@@ -1,0 +1,26 @@
+!SESSION 2022-06-08 17:38:25.312 -----------------------------------------------
+eclipse.buildId=2022.6.0
+java.version=17.0.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -auto_project_and_workspace -project_location /remote/vgscratch7/mandel/euclide_uvm_labs/ces_uvm-1.2_2018.09/labs/lab4/euclide_project -external_args_db_file /remote/vgscratch7/mandel/euclide_uvm_labs/ces_uvm-1.2_2018.09/labs/lab4/EUELAB.DB/euclide_external_args.db -build_args_file /remote/vgscratch7/mandel/euclide_uvm_labs/ces_uvm-1.2_2018.09/labs/lab4/EUELAB.DB/euclide_build_args.db -workspacevcs -sverilog -lca -debug_access+all+reverse -kdb -timescale=1ns/100ps -l -ntb_opts -prefs_copy_workspace ../workspace -open_file /remote/vgscratch7/mandel/euclide_uvm_labs/ces_uvm-1.2_2018.09/labs/lab4/+vcs+vcdpluson -open_file /remote/vgscratch7/mandel/euclide_uvm_labs/ces_uvm-1.2_2018.09/labs/lab4/comp.log -open_file /remote/vgscratch7/mandel/euclide_uvm_labs/ces_uvm-1.2_2018.09/labs/lab4/uvm-1.2 -open_file /remote/vgscratch7/mandel/euclide_uvm_labs/ces_uvm-1.2_2018.09/labs/lab4/../../rtl/router.sv -open_file /remote/vgscratch7/mandel/euclide_uvm_labs/ces_uvm-1.2_2018.09/labs/lab4/../../rtl/router_io.sv -open_file /remote/vgscratch7/mandel/euclide_uvm_labs/ces_uvm-1.2_2018.09/labs/lab4/../../rtl/ral/host_io.sv -open_file /remote/vgscratch7/mandel/euclide_uvm_labs/ces_uvm-1.2_2018.09/labs/lab4/../../rtl/reset_io.sv -open_file /remote/vgscratch7/mandel/euclide_uvm_labs/ces_uvm-1.2_2018.09/labs/lab4/../../rtl/router_test_top.sv -open_file /remote/vgscratch7/mandel/euclide_uvm_labs/ces_uvm-1.2_2018.09/labs/lab4/./packages/router_stimulus_pkg.sv -open_file /remote/vgscratch7/mandel/euclide_uvm_labs/ces_uvm-1.2_2018.09/labs/lab4/./packages/router_env_pkg.sv -open_file /remote/vgscratch7/mandel/euclide_uvm_labs/ces_uvm-1.2_2018.09/labs/lab4/./packages/router_test_pkg.sv -open_file /remote/vgscratch7/mandel/euclide_uvm_labs/ces_uvm-1.2_2018.09/labs/lab4/./test.sv -open_file /remote/vgscratch7/mandel/euclide_uvm_labs/ces_uvm-1.2_2018.09/labs/lab4/+define+UVM_VERDI_COMPWAVE+UVM_NO_DEPRECATED+UVM_OBJECT_MUST_HAVE_CONSTRUCTOR+
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -auto_project_and_workspace -data /remote/vgscratch7/mandel/euclide_uvm_labs/ces_uvm-1.2_2018.09/labs/lab4/euclide_workspace -project_location /remote/vgscratch7/mandel/euclide_uvm_labs/ces_uvm-1.2_2018.09/labs/lab4/euclide_project -external_args_db_file /remote/vgscratch7/mandel/euclide_uvm_labs/ces_uvm-1.2_2018.09/labs/lab4/EUELAB.DB/euclide_external_args.db -build_args_file /remote/vgscratch7/mandel/euclide_uvm_labs/ces_uvm-1.2_2018.09/labs/lab4/EUELAB.DB/euclide_build_args.db -workspacevcs -sverilog -lca -debug_access+all+reverse -kdb -timescale=1ns/100ps -l -ntb_opts -prefs_copy_workspace ../workspace -open_file /remote/vgscratch7/mandel/euclide_uvm_labs/ces_uvm-1.2_2018.09/labs/lab4/+vcs+vcdpluson -open_file /remote/vgscratch7/mandel/euclide_uvm_labs/ces_uvm-1.2_2018.09/labs/lab4/comp.log -open_file /remote/vgscratch7/mandel/euclide_uvm_labs/ces_uvm-1.2_2018.09/labs/lab4/uvm-1.2 -open_file /remote/vgscratch7/mandel/euclide_uvm_labs/ces_uvm-1.2_2018.09/labs/lab4/../../rtl/router.sv -open_file /remote/vgscratch7/mandel/euclide_uvm_labs/ces_uvm-1.2_2018.09/labs/lab4/../../rtl/router_io.sv -open_file /remote/vgscratch7/mandel/euclide_uvm_labs/ces_uvm-1.2_2018.09/labs/lab4/../../rtl/ral/host_io.sv -open_file /remote/vgscratch7/mandel/euclide_uvm_labs/ces_uvm-1.2_2018.09/labs/lab4/../../rtl/reset_io.sv -open_file /remote/vgscratch7/mandel/euclide_uvm_labs/ces_uvm-1.2_2018.09/labs/lab4/../../rtl/router_test_top.sv -open_file /remote/vgscratch7/mandel/euclide_uvm_labs/ces_uvm-1.2_2018.09/labs/lab4/./packages/router_stimulus_pkg.sv -open_file /remote/vgscratch7/mandel/euclide_uvm_labs/ces_uvm-1.2_2018.09/labs/lab4/./packages/router_env_pkg.sv -open_file /remote/vgscratch7/mandel/euclide_uvm_labs/ces_uvm-1.2_2018.09/labs/lab4/./packages/router_test_pkg.sv -open_file /remote/vgscratch7/mandel/euclide_uvm_labs/ces_uvm-1.2_2018.09/labs/lab4/./test.sv -open_file /remote/vgscratch7/mandel/euclide_uvm_labs/ces_uvm-1.2_2018.09/labs/lab4/+define+UVM_VERDI_COMPWAVE+UVM_NO_DEPRECATED+UVM_OBJECT_MUST_HAVE_CONSTRUCTOR+
+
+!ENTRY euclide 1 100003 2022-06-08 17:38:36.855
+!MESSAGE Installation and system info:
+Euclide plug-in version: 2022.6.0
+GTK version: 3.22.30
+GTK theme specified in 'GTK_THEME' environment variable: Oxygen
+GTK theme name as given by the OS: Raleigh
+
+!ENTRY euclide 1 100003 2022-06-08 17:38:42.479
+!MESSAGE Euclide is listening for incoming TCP connections on port 36611
+
+!ENTRY euclide 1 100003 2022-06-08 17:38:46.690
+!MESSAGE Successfully checked out a license for the feature 'EUCLIDE-GUI' from the license server at 26585@us01genlic
+
+!ENTRY euclide 1 100003 2022-06-08 17:38:47.330
+!MESSAGE Successfully checked out a license for the feature 'EUCLIDE-INTR-LINT' from the license server at 26585@us01genlic
+
+!ENTRY euclide 1 100003 2022-06-08 17:40:11.162
+!MESSAGE Deleted the socket information file ".euclidesocket" from workspace location
