@@ -2,7 +2,7 @@
 `include "uvm_macros.svh"
 import uvm_pkg::*;
 `define LENGTH  4
-`include "dut.sv"
+`include "adder.sv"
 `include "interface.sv"
 `include "sequence_item.sv"
 `include "sequence.sv"
